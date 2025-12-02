@@ -1,4 +1,5 @@
 import styles from "../pages/styles/pages/Home.module.css";
+import narutoTeam from '/img/narutoTeam.png';
 
 
 export const Home = () => {
@@ -6,7 +7,7 @@ export const Home = () => {
     <div className={styles.homeContainer}>
       <div className={styles.container}>
         <img 
-        src="src/assets/img/narutoTeam.png" alt="naruto"
+        src={narutoTeam} alt="naruto"
         className="p-3"
          />
         <p className={styles.subtitle}>Mundo Ninja</p>

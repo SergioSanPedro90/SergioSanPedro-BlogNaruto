@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "../pages/styles/components/SideBar.module.css";
+import logoNaruto from "/img/logoNaruto.png"
+import pngwing from "/img/pngwing.com.png"
 
 export const SideBar = () => {
   return (
@@ -15,7 +17,7 @@ export const SideBar = () => {
           <div className="offcanvas-title" id="offcanvasExampleLabel">
             <img
               className="w-100 ms-1"
-              src="src/assets/img/logoNaruto.png"
+              src={logoNaruto}
               alt="naruto"
             />
           </div>
@@ -74,7 +76,7 @@ export const SideBar = () => {
               </Link>
             </li>
           </ul>
-          <img className="ms-5" src="src/assets/img/pngwing.com.png" alt="" />
+          <img className="ms-5" src={pngwing} alt="" />
         </div>
       </div>
     </>
